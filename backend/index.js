@@ -6,7 +6,7 @@ const app = express()
 
 app.get("/", (request, response) => {
     console.log(request)
-    return response.status(234).send('Testing 123')
+    return response.status(234).send('Testing 124')
 })
 
 mongoose
